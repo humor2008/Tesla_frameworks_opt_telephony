@@ -28,7 +28,7 @@ import java.lang.NullPointerException;
 
 public class PhoneSubInfoController extends IPhoneSubInfo.Stub {
     private static final String TAG = "PhoneSubInfoController";
-    // private static final int PHONE_ID_1 = 0;
+    private static final int PHONE_ID_1 = 0;
     private final Phone[] mPhone;
     private final Context mContext;
     private final AppOpsManager mAppOps;
